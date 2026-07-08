@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FC Ecoturismo — Tarifário 2026 | Rota das Emoções</title>
+<meta name="description" content="Tarifário oficial 2026 da FC Ecoturismo para agências parceiras — transfers pela Rota das Emoções entre Barreirinhas, Caburé, Parnaíba, Barra Grande e Jericoacoara.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= TOP BAR ================= -->
+<div class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-logo">
+      <img src="images/logo.png" alt="FC Ecoturismo">
+      <div class="name">FC ECOTURISMO</div>
+    </div>
+    <div class="chip-row" id="chipRow">
+      <button class="chip active" data-region="all">Todos</button>
+      <button class="chip" data-region="barreirinhas">Barreirinhas</button>
+      <button class="chip" data-region="cabure">Caburé</button>
+      <button class="chip" data-region="parnaiba">Parnaíba / Luís Correia</button>
+      <button class="chip" data-region="barra-grande">Barra Grande</button>
+      <button class="chip" data-region="jericoacoara">Jericoacoara</button>
+      <button class="chip" data-region="outras">Outras Rotas</button>
+    </div>
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="searchInput" placeholder="Buscar trecho...">
+    </div>
+  </div>
+</div>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="topo">
+  <div class="hero-sky">
+    <div class="sun"></div>
+    <div class="cloud" style="top:14%;left:10%;width:90px;height:34px;animation-duration:38s;">
+      <svg viewBox="0 0 100 40"><ellipse cx="30" cy="26" rx="26" ry="14" fill="#fff"/><ellipse cx="58" cy="18" rx="22" ry="16" fill="#fff"/><ellipse cx="78" cy="28" rx="18" ry="11" fill="#fff"/></svg>
+    </div>
+    <div class="cloud" style="top:22%;left:60%;width:70px;height:28px;animation-duration:52s;animation-delay:-20s;opacity:.5;">
+      <svg viewBox="0 0 100 40"><ellipse cx="30" cy="26" rx="26" ry="14" fill="#fff"/><ellipse cx="58" cy="18" rx="22" ry="16" fill="#fff"/></svg>
+    </div>
+
+    <svg class="dune-layer dune-back" viewBox="0 0 1440 300" preserveAspectRatio="none" style="height:260px;">
+      <path d="M0,180 C220,110 380,230 620,160 C860,90 1040,220 1440,140 L1440,300 L0,300 Z" fill="#eecf9c"/>
+    </svg>
+    <svg class="dune-layer dune-mid" viewBox="0 0 1440 260" preserveAspectRatio="none" style="height:210px;">
+      <path d="M0,150 C260,70 460,190 720,120 C980,50 1180,180 1440,110 L1440,260 L0,260 Z" fill="#d9a35c"/>
+    </svg>
+
+    <img class="palm" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 200'%3E%3Cpath d='M58 200 L64 90' stroke='%233f1b17' stroke-width='7' fill='none' stroke-linecap='round'/%3E%3Cg fill='%235da141'%3E%3Cpath d='M61 92 C 20 70, 5 30, 15 10 C 40 25, 58 55, 61 92 Z'/%3E%3Cpath d='M61 92 C 100 60, 118 20, 108 5 C 82 22, 63 55, 61 92 Z'/%3E%3Cpath d='M61 92 C 30 95, 0 80, 0 60 C 25 60, 50 72, 61 92 Z'/%3E%3Cpath d='M61 92 C 92 100, 122 88, 122 66 C 96 65, 70 75, 61 92 Z'/%3E%3Cpath d='M61 92 C 45 55, 48 20, 65 0 C 78 22, 75 60, 61 92 Z'/%3E%3C/g%3E%3C/svg%3E" alt="">
+
+    <div class="truck-scene">
+      <svg class="truck" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="100" cy="90" rx="86" ry="6" fill="rgba(63,27,23,.18)"/>
+        <rect x="120" y="46" width="62" height="26" rx="4" fill="#3f1b17"/>
+        <rect x="126" y="40" width="50" height="8" rx="2" fill="#2c110d"/>
+        <path d="M18 72 L18 48 C18 44 21 41 25 41 L45 41 L58 22 C60 19 63 18 66 18 L98 18 C102 18 105 21 105 25 L105 41 L120 41 L120 72 Z" fill="#3f1b17"/>
+        <path d="M63 24 L96 24 C98 24 99 25 99 27 L99 39 L52 39 Z" fill="#fdfaf3"/>
+        <rect x="24" y="46" width="90" height="5" fill="#fdfaf3" opacity=".9"/>
+        <rect x="10" y="60" width="10" height="12" rx="2" fill="#241009"/>
+        <g class="wheel">
+          <circle cx="50" cy="80" r="17" fill="#241009"/>
+          <circle cx="50" cy="80" r="8" fill="#d9a35c"/>
+          <rect x="48" y="66" width="4" height="28" fill="#241009"/>
+          <rect x="36" y="78" width="28" height="4" fill="#241009"/>
+        </g>
+        <g class="wheel">
+          <circle cx="148" cy="80" r="17" fill="#241009"/>
+          <circle cx="148" cy="80" r="8" fill="#d9a35c"/>
+          <rect x="146" y="66" width="4" height="28" fill="#241009"/>
+          <rect x="134" y="78" width="28" height="4" fill="#241009"/>
+        </g>
+      </svg>
+      <div class="dust" style="left:0px;animation-delay:0s;"></div>
+      <div class="dust" style="left:-14px;animation-delay:.3s;"></div>
+      <div class="dust" style="left:-28px;animation-delay:.6s;"></div>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <img class="hero-logo" src="images/logo.png" alt="Logo FC Ecoturismo">
+    <div class="eyebrow">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M12 3v18"/></svg>
+      Transfer pela Rota das Emoções
+    </div>
+    <h1>Rota das <span class="accent">Emoções</span></h1>
+    <p class="hero-sub">Transfers em cabine dupla e SW4 conectando Lençóis Maranhenses, Delta do Parnaíba e Jericoacoara. Escolha o trecho, a data e reserve em poucos toques.</p>
+    <div class="hero-tagline">Rota das Emoções · Transfer · Roteiro Personalizado</div>
+    <div class="hero-ctas">
+      <a href="#tarifario" class="btn btn-primary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        Ver tarifário completo
+      </a>
+      <a href="#contato" class="btn btn-ghost">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        Falar com a FC Ecoturismo
+      </a>
+    </div>
+  </div>
+
+  <div class="scroll-cue"><span>Role para explorar</span><span class="line"></span></div>
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="stats">
+  <div class="wrap stats-grid">
+    <div class="stat"><div class="num" data-count="28">0</div><div class="lbl">Trechos mapeados</div></div>
+    <div class="stat"><div class="num" data-count="6">0</div><div class="lbl">Regiões atendidas</div></div>
+    <div class="stat"><div class="num" data-count="2">0</div><div class="lbl">Categorias de veículo</div></div>
+    <div class="stat"><div class="num" data-count="2026">0</div><div class="lbl">Tarifário vigente</div></div>
+  </div>
+</section>
+
+<!-- ================= ROUTE DIVIDER (signature) ================= -->
+<div class="route-divider wrap">
+  <svg class="route-svg" viewBox="0 0 1180 120" xmlns="http://www.w3.org/2000/svg">
+    <path id="routePath" d="M20,80 C 200,10 340,120 520,50 C 700,-10 820,110 1000,55 C 1080,30 1120,45 1160,40"
+          fill="none" stroke="#d9a35c" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round"/>
+    <circle class="route-dot" cx="20" cy="80" r="7" fill="#5da141"/>
+    <circle class="route-dot" cx="520" cy="50" r="7" fill="#5da141" style="animation-delay:.15s"/>
+    <circle class="route-dot" cx="1000" cy="55" r="7" fill="#5da141" style="animation-delay:.3s"/>
+    <circle class="route-dot" cx="1160" cy="40" r="9" fill="#3f1b17" style="animation-delay:.45s"/>
+    <g class="truck-icon" style="offset-path:path('M20,80 C 200,10 340,120 520,50 C 700,-10 820,110 1000,55 C 1080,30 1120,45 1160,40');">
+      <svg x="-14" y="-14" width="28" height="28" viewBox="0 0 190 95"><path d="M14 70 L14 40 L34 40 L48 20 L118 20 L134 40 L172 40 L172 70 Z" fill="#3f1b17"/><rect x="16" y="55" width="150" height="6" fill="#fff"/><circle cx="48" cy="72" r="16" fill="#241009"/><circle cx="140" cy="72" r="16" fill="#241009"/></svg>
+    </g>
+  </svg>
+</div>
+
+<!-- ================= TARIFARIO ================= -->
+<section class="section" id="tarifario">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        Tabela de preços por região
+      </span>
+      <h2>Tarifário completo, organizado por rota</h2>
+      <p>Todos os trechos oficiais da FC Ecoturismo, separados por ponto de partida. Use os filtros no topo ou a busca para encontrar o transfer ideal para o roteiro do seu cliente.</p>
+    </div>
+    <div id="regionsContainer"></div>
+    <div class="no-results" id="noResults">
+      <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" style="margin:0 auto 14px;opacity:.5;"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <p>Nenhum trecho encontrado para essa busca. Tente outro termo, como o nome da cidade de origem ou destino.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LEGEND ================= -->
+<section class="section legend">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+        Como ler a tabela
+      </span>
+      <h2>Categorias de veículo</h2>
+    </div>
+    <div class="legend-grid">
+      <div class="legend-card reveal">
+        <div class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M3 13l2-6a2 2 0 0 1 2-1h10a2 2 0 0 1 2 1l2 6"/><rect x="3" y="13" width="18" height="6" rx="1.5"/><circle cx="7.5" cy="19" r="1.6"/><circle cx="16.5" cy="19" r="1.6"/></svg>
+        </div>
+        <div>
+          <h4>Cabine Dupla (4x4)</h4>
+          <p>Picape de cabine dupla, ideal para grupos de até 4 passageiros com bagagem. A opção mais econômica para transfers pela Rota das Emoções, com o mesmo padrão de segurança e conforto.</p>
+        </div>
+      </div>
+      <div class="legend-card reveal">
+        <div class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 12l1.5-5A2 2 0 0 1 7.4 5.5h9.2a2 2 0 0 1 1.9 1.5L20 12"/><rect x="3" y="12" width="18" height="7" rx="2"/><circle cx="7.5" cy="19.5" r="1.6"/><circle cx="16.5" cy="19.5" r="1.6"/></svg>
+        </div>
+        <div>
+          <h4>SW4 (SUV 4x4)</h4>
+          <p>SUV de maior porte, mais espaço interno e porta-malas, indicada para grupos maiores ou clientes que buscam mais conforto em trechos longos e travessias por praia.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DESTINOS ================= -->
+<section class="section" id="destinos">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.4-7-11a7 7 0 0 1 14 0c0 4.6-7 11-7 11z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        Sobre a região
+      </span>
+      <h2>Destinos da Rota das Emoções</h2>
+      <p>Um resumo rápido de cada praça para apresentar ao seu cliente na hora da venda.</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="dest-scroll" id="destScroll"></div>
+  </div>
+</section>
+
+<!-- ================= NOTES ================= -->
+<section class="section" style="background:var(--sand-lighter);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/></svg>
+        Informações importantes
+      </span>
+      <h2>Antes de fechar a cotação</h2>
+    </div>
+    <div class="notes-grid">
+      <div class="note-card reveal">
+        <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg>Valores por veículo</h4>
+        <p>Os preços da tabela são por veículo (não por passageiro) e valem para o trecho privativo, sujeitos a confirmação de disponibilidade na data solicitada.</p>
+      </div>
+      <div class="note-card reveal">
+        <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M12 3v18"/></svg>Vias praia e asfalto</h4>
+        <p>Alguns trechos possuem duas opções de rota — via praia ou via asfalto — com preços e tempos de viagem diferentes. Confirme a preferência do cliente antes de fechar.</p>
+      </div>
+      <div class="note-card reveal">
+        <h4><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Tarifário 2026</h4>
+        <p>Valores válidos para a temporada 2026 e sujeitos a reajuste sem aviso prévio. Consulte a FC Ecoturismo para confirmar o valor final antes de repassar ao cliente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<div class="cta-band reveal" id="contato">
+  <h2>Pronto para planejar sua próxima viagem?</h2>
+  <p>Escolha o trecho, a data e quantas pessoas vão viajar — enviamos tudo pronto para o nosso WhatsApp e confirmamos sua reserva rapidinho.</p>
+  <button type="button" class="btn btn-primary" id="openGenericModal">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+    Solicitar reserva
+  </button>
+  <div style="margin-top:16px;">
+    <a href="https://wa.me/5598989086313" target="_blank" style="font-size:.85rem;opacity:.85;text-decoration:underline;">ou fale direto pelo WhatsApp</a>
+  </div>
+</div>
+
+<!-- ================= BOOKING MODAL ================= -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box">
+    <button type="button" class="modal-close" id="modalClose" aria-label="Fechar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <h3>Solicitar reserva</h3>
+    <p class="modal-hint">Preencha os dados abaixo. Ao enviar, vamos abrir o WhatsApp com tudo pronto para nossa equipe confirmar.</p>
+    <form id="bookingForm">
+      <label class="field">Trecho desejado
+        <select id="fTrecho" required>
+          <option value="" disabled selected>Selecione o trecho...</option>
+        </select>
+      </label>
+      <div class="form-row">
+        <label class="field">Veículo
+          <select id="fVeiculo">
+            <option value="Cabine Dupla">Cabine Dupla</option>
+            <option value="SW4">SW4</option>
+          </select>
+        </label>
+        <label class="field">Quantas pessoas?
+          <input type="number" id="fPessoas" min="1" value="2" required>
+        </label>
+      </div>
+      <div class="form-row">
+        <label class="field">Data
+          <input type="date" id="fData" required>
+        </label>
+        <label class="field">Horário
+          <input type="time" id="fHorario" required>
+        </label>
+      </div>
+      <label class="check-row">
+        <input type="checkbox" id="fCrianca"> Vai ter criança no grupo?
+      </label>
+      <label class="field" id="fCriancaQtdWrap" style="display:none;">Quantas crianças?
+        <input type="number" id="fCriancaQtd" min="1" value="1">
+      </label>
+      <label class="field">Seu nome
+        <input type="text" id="fNome" placeholder="Nome completo" required>
+      </label>
+      <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:6px;">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.5 0-10 4.5-10 10 0 1.77.46 3.45 1.32 4.94L2 22l5.2-1.36A9.94 9.94 0 0 0 12.04 22c5.5 0 10-4.5 10-10s-4.5-10-10-10zm0 18.15c-1.6 0-3.15-.43-4.5-1.24l-.32-.19-3.08.8.82-3-.2-.32a8.1 8.1 0 0 1-1.26-4.36c0-4.5 3.66-8.16 8.16-8.16 4.5 0 8.16 3.66 8.16 8.16 0 4.5-3.66 8.16-8.16 8.16zm4.5-6.1c-.25-.12-1.45-.72-1.67-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.78.96-.14.16-.29.18-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.22-1.45-1.37-1.7-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.55-1.32-.75-1.81-.2-.48-.4-.41-.55-.42h-.47c-.16 0-.43.06-.65.31-.22.25-.86.84-.86 2.04 0 1.2.88 2.36 1 2.52.12.16 1.73 2.64 4.2 3.7.59.25 1.05.4 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.45-.59 1.66-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28z"/></svg>
+        Enviar pelo WhatsApp
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <img class="flogo" src="images/logo.png" alt="FC Ecoturismo">
+  <div class="fname">FC ECOTURISMO</div>
+  <div class="ftag">Rota das Emoções · Transfer · Roteiro Personalizado</div>
+  <div class="fnote">Documento de uso interno para agências parceiras — Tarifário 2026. Valores sujeitos a alteração e disponibilidade.</div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
