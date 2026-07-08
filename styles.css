@@ -439,11 +439,14 @@ footer .fnote{font-size:.72rem;opacity:.6;margin-top:22px;}
   .search-box input{width:130px;}
   .search-box input:focus{width:150px;}
   .topbar-logo .name{display:none;}
-  .hero{min-height:auto;padding-top:26px;padding-bottom:60px;}
-  .truck-scene{height:130px;}
-  .truck{width:140px;}
-  .palm{width:90px;bottom:24%;}
-  .sun{width:76px;height:76px;top:6%;}
+  .hero{min-height:820px;padding-top:90px;padding-bottom:120px;}
+  .truck-scene{height:110px;bottom:4%;}
+  .truck{width:120px;}
+  .palm{width:70px;bottom:20%;left:4%;opacity:.8;}
+  .sun{width:58px;height:58px;top:4%;right:6%;}
+  .cloud{display:none;}
+  .scroll-cue{bottom:14px;}
+  .hero-ctas{margin-top:24px;}
 }
 @media (max-width:560px){
   .hero-ctas{flex-direction:column;align-items:stretch;}
@@ -452,8 +455,16 @@ footer .fnote{font-size:.72rem;opacity:.6;margin-top:22px;}
   .chip{padding:10px 13px;font-size:.72rem;}
   .search-box input{width:44px;padding:10px 10px 10px 34px;background:var(--sand-lighter);border-color:transparent;font-size:0;}
   .search-box input:focus, .search-box input:not(:placeholder-shown){width:130px;font-size:.82rem;background:#fff;border-color:var(--green);}
+  .hero{min-height:780px;padding-top:70px;padding-bottom:110px;}
   .hero-content{padding:0 14px;}
-  .hero-logo{width:110px;height:110px;}
+  .hero-logo{width:100px;height:100px;margin-bottom:12px;}
+  .hero-sub{font-size:.95rem;}
+  .hero-tagline{font-size:.9rem;}
+  .hero-ctas{margin-top:22px;}
+  .palm{display:none;}
+  .sun{width:44px;height:44px;top:3%;right:5%;}
+  .truck-scene{height:90px;bottom:3%;}
+  .truck{width:100px;}
   .region-head{flex-wrap:wrap;}
   .region-head .count{margin-left:0;}
   .dest-card{width:220px;}
